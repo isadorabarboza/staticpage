@@ -6,62 +6,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>caixas </title>
     <style>
+
      #topBox{
 /* width: 250px;
 height: 250px; */
-border: 9px solid purple;
+border: 9px solid rgb(255, 255, 255);
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 }    
 #BottomBox{
-width: 250px;
-height: 250px;
-background-color: violet;
+width: 230px;
+height: 315px;
+background-color: rgb(130, 132, 238);
+border-radius: 15px;
 }
+#Verybottombox{
+
+width: 230px;
+height: 315px;
+background-color: rgb(130, 132, 238);
+border-radius: 15px;
+
+
+}
+
 .Circle{
 width: 150px;
 height: 150px;
 border-radius: 50%;
 background-color:darkorchid;
+
 }   
 .Alinhar{
     display: flex;
-flex-direction: column;
+flex-direction: row;
 justify-content: center;
 align-items: center;
 }    
 .bnt-style{ 
     width: 100px;
-    height: 30px;
+    height: 25px;
     background-color:rgb(130, 130, 216);
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 70%;
+    border-radius: 50px;
 color: rgb(14, 13, 14);
+margin-right: 5px;
 }
+.container {
+ display: flex;
+ justify-content: space-between;
+}
+   
+
+#flex{
+
+ display: flex;
+}
+
+
+
 
     </style>
 </head>
 <body>
     <div id="topBox">
 <div class="Circle"></div>
-    <div>
+    <div class="alinhar"> 
         <h1>Isadora</h1>
-        <p>Student, Brazilian</p>
-        <div class="bnt-style"> <p>botão 1</p>
+        <p>Student, Brazilian</p> </div>
+        <div class="container">
+        <div class="bnt-style"> <p>botão 1</p> </div>
+       <div class="bnt-style"> <p>botão 2</p> </div>
         </div>
-        <div class="bnt-style"> <p>botão 2</p>
-        
         </div>
 
     </div>
-<div></div>
-    </div>
+<div class="flex">
     <div id="BottomBox">
-<div></div>
+    <div id="Verybottombox"></div>
+    </div>
+
+</div>
+    </div>
+
+    
 <div></div>
 <div></div>
     </div>
